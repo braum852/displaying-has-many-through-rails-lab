@@ -4,8 +4,7 @@ class CreateAppointments < ActiveRecord::Migration[5.0]
       t.datetime :appointment_datetime
       t.integer :patient_id
       t.integer :doctor_id
-      t.datetime :created_at
-      t.datetime :updated_at
+      t.timestamps
     end
   end
 end
